@@ -1,4 +1,4 @@
-| Wikidata ID  | Name                  | Toponymic Elements                                              |
+| Wikidata ID | Label                | Toponymic Elements                                             |
 |-------------|----------------------|----------------------------------------------------------------|
 | Q486972     | human settlement     | ville, ton, burg, ham, bury, stoke, worth, field, end, corner, cross, thorpe, by, ley, stead |
 | Q8502       | mountain             | mount, peak, hill, summit, ridge, cliff, crag, tor, fell, ben, alp, knoll, scar, pike, howe, law, drum |
