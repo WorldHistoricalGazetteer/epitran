@@ -13,3 +13,4 @@
 | Q33857      | park                 | park, gardens, green, common, heath, lea, glade, chase, warren, prairie |
 | Q11442      | road                 | road, street, avenue, lane, way, path, highway, drive, trail, track, causeway, wynd |
 | Q133506     | beach                | beach, shore, coast, sand, strand, dune, bay, cove, reef, bight |
+| Q24398318   | religious building   | church, chapel, temple, minster
