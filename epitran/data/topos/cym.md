@@ -1,6 +1,6 @@
 | Wikidata ID | Adnabod                  | Elfennau Toponymig                               |
 |---------------------|---------------------|------------------------------------------------|
-| Q486972            | anheddiad dynol      | llan, rhos, aber, tref, dinas, pentref, caer, plas |
+| Q486972            | anheddiad dynol      | rhos, aber, tref, dinas, pentref, caer, plas |
 | Q8502              | mynydd               | bryn, mynydd, pen, cefn, allt, craig, cwm      |
 | Q1549591           | marchnad             | ffair, maes                                   |
 | Q54113             | lliw                 | coch, du, gwyn, glas, melyn, llwyd, brown, gwyrdd |
