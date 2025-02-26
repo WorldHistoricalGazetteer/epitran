@@ -1,6 +1,8 @@
 | Wikidata ID | Label                | Toponymic Elements                                             |
 |-------------|----------------------|----------------------------------------------------------------|
 | Q486972     | human settlement     | ville, ton, burg, ham, bury, stoke, worth, field, end, corner, cross, thorpe, by, ley, stead |
+| Q24398318   | religious building   | church, chapel, temple, minster |
+| Q2151613    | compass point        | north, south, east, west |
 | Q8502       | mountain             | mount, peak, hill, summit, ridge, cliff, crag, tor, fell, ben, alp, knoll, scar, pike, howe, law, drum |
 | Q1549591    | market               | market, bazaar, fair, mart, chipping, forum |
 | Q54113      | color                | red, black, white, green, blue, yellow, brown, grey, orange, purple, dun, roan, blonde |
@@ -13,4 +15,3 @@
 | Q33857      | park                 | park, gardens, green, common, heath, lea, glade, chase, warren, prairie |
 | Q11442      | road                 | road, street, avenue, lane, way, path, highway, drive, trail, track, causeway, wynd |
 | Q133506     | beach                | beach, shore, coast, sand, strand, dune, bay, cove, reef, bight |
-| Q24398318   | religious building   | church, chapel, temple, minster
