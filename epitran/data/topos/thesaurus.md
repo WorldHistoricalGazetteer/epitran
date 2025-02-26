@@ -43,7 +43,7 @@ This information is then used to generate the one-hot semantic embeddings for to
 ### Vegetation and Natural Areas
 | Wikidata ID  | Name                 | Description |
 |-------------|----------------------|-------------|
-| Q168555     | Forest                | A large area covered chiefly with trees and undergrowth |
+| Q168555     | Forest                | A large area covered chiefly with trees and undergrowth, or a historical hunting ground |
 | Q33857      | Park                  | An area of natural, semi-natural or planted space set aside for human enjoyment and recreation |
 
 ### Infrastructure and Pathways
