@@ -14,23 +14,50 @@ Each QID is associated with a language-specific Markdown file (*.md). These file
 The phonetic information (IPA transcriptions) of these toponymic elements is extracted from the Markdown files and stored in a JSON file (TOPOS.json).
 This information is then used to generate the one-hot semantic embeddings for toponyms.
 
-*QIDs may be added to the **end** of the table. Reordering of the table would invalidate any embeddings generated previously.*
+*Changes made to this table will invalidate any embeddings generated previously.*
 
 ---
 
-| Wikidata ID | Name                  | Description |
-|------------|----------------------|-------------|
-| Q486972    | Human settlement      | A place where people live |
-| Q8502      | Mountain              | A large natural elevation of the earth's surface rising abruptly from the surrounding level |
-| Q1549591   | Market                | Location of a market or trading place |
-| Q54113     | Color                 | A colour used to describe a geographical feature |
-| Q43229     | River                 | A natural flowing watercourse, usually freshwater, flowing towards an ocean, sea, lake or another river |
-| Q168555    | Forest                | A large area covered chiefly with trees and undergrowth |
-| Q23442     | Lake                  | A large body of water surrounded by land |
-| Q571       | Island                | Any piece of land surrounded by water |
-| Q28637634  | Archaeological site   | A place (or group of physical sites) in which evidence of past activity is preserved (either prehistoric or historic or contemporary) |
-| Q1209537   | Building              | A structure with a roof and walls, such as a house, school, store, or factory |
-| Q33857     | Park                  | An area of natural, semi-natural or planted space set aside for human enjoyment and recreation |
-| Q11442     | Road                  | An identifiable route, way or path between two or more places |
-| Q133506    | Beach                 | A pebbly or sandy shore, especially by the ocean between high- and low-water marks |
-| Q170925    | Desert                | A barren area of land with little precipitation |
+### Settlements and Human-Made Structures
+| Wikidata ID  | Name                 | Description |
+|-------------|----------------------|-------------|
+| Q486972     | Human settlement      | A place where people live |
+| Q1209537    | Building              | A structure with a roof and walls, such as a house, school, store, or factory |
+| Q24398318   | Religious building    | A building used for religious activities, such as a church, mosque, temple, or synagogue |
+| Q1549591    | Market                | Location of a market or trading place |
+
+### Natural Landforms
+| Wikidata ID  | Name                 | Description |
+|-------------|----------------------|-------------|
+| Q8502       | Mountain              | A large natural elevation of the earth's surface rising abruptly from the surrounding level |
+| Q571        | Island                | Any piece of land surrounded by water |
+| Q170925     | Desert                | A barren area of land with little precipitation |
+
+### Water Bodies and Features
+| Wikidata ID  | Name                 | Description |
+|-------------|----------------------|-------------|
+| Q43229      | River                 | A natural flowing watercourse, usually freshwater, flowing towards an ocean, sea, lake, or another river |
+| Q23442      | Lake                  | A large body of water surrounded by land |
+| Q133506     | Beach                 | A pebbly or sandy shore, especially by the ocean between high- and low-water marks |
+
+### Vegetation and Natural Areas
+| Wikidata ID  | Name                 | Description |
+|-------------|----------------------|-------------|
+| Q168555     | Forest                | A large area covered chiefly with trees and undergrowth |
+| Q33857      | Park                  | An area of natural, semi-natural or planted space set aside for human enjoyment and recreation |
+
+### Infrastructure and Pathways
+| Wikidata ID  | Name                 | Description |
+|-------------|----------------------|-------------|
+| Q11442      | Road                  | An identifiable route, way or path between two or more places |
+
+### Cultural and Historical Sites
+| Wikidata ID  | Name                 | Description |
+|-------------|----------------------|-------------|
+| Q28637634   | Archaeological site   | A place (or group of physical sites) in which evidence of past activity is preserved (either prehistoric, historic, or contemporary) |
+
+### Miscellaneous
+| Wikidata ID  | Name                 | Description |
+|-------------|----------------------|-------------|
+| Q54113      | Color                 | A colour used to describe a geographical feature |
+
