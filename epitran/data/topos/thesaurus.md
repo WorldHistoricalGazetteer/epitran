@@ -1,3 +1,23 @@
+## TOPOS Thesaurus
+
+### Purpose:
+
+TOPOS is designed to add semantic information to the representation of place names. This means it helps to capture the meaning or concept associated with a place, rather than just its phonetic sounds.
+This semantic information is encoded as "one-hot semantic vector embeddings." These are essentially vectors where each element corresponds to a specific concept from the thesaurus, and the value of the element (1 or 0) indicates whether that concept is present or absent in the place name.
+
+This semantic embedding can then be used in a vector index along with other phonetic embeddings to improve the accuracy and depth of place name matching and analysis.
+
+### Structure:
+
+The thesaurus consists of a controlled vocabulary of Wikidata QIDs (identifiers for Wikidata items). These QIDs represent various geographic concepts, such as "human settlement," "mountain," "market," etc.
+Each QID is associated with a language-specific Markdown file (*.md). These files contain lists of common toponymic elements (parts of place names) that are related to the concept represented by the QID.
+The phonetic information (IPA transcriptions) of these toponymic elements is extracted from the Markdown files and stored in a JSON file (TOPOS.json).
+This information is then used to generate the one-hot semantic embeddings for toponyms.
+
+*QIDs may be added to the **end** of the table. Reordering of the table would invalidate any embeddings generated previously.*
+
+---
+
 | Wikidata ID | Name                  | Description |
 |------------|----------------------|-------------|
 | Q486972    | Human settlement      | A place where people live |
