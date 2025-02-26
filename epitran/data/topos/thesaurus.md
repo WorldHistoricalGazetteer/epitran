@@ -60,4 +60,5 @@ This information is then used to generate the one-hot semantic embeddings for to
 | Wikidata ID  | Name                 | Description |
 |-------------|----------------------|-------------|
 | Q54113      | Color                 | A colour used to describe a geographical feature |
+| Q2151613	  | Compass point         | A directional component, such as north, south, east, or west, used in place names |
 
