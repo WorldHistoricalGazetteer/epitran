@@ -61,4 +61,6 @@ This information is then used to generate the one-hot semantic embeddings for to
 |-------------|----------------------|-------------|
 | Q54113      | Color                 | A colour used to describe a geographical feature |
 | Q2151613	  | Compass point         | A directional component, such as north, south, east, or west, used in place names |
+| Q2633778    | Elevation             | Commonly used in toponyms as a relative measure, for example upper or lower |
+| Q322481     | Size                  | Commonly used in toponyms as a relative measure, for example great or little |
 
