@@ -14,7 +14,7 @@ Each QID is associated with a language-specific Markdown file (*.md). These file
 The phonetic information (IPA transcriptions) of these toponymic elements is extracted from the Markdown files and stored in a JSON file (TOPOS.json).
 This information is then used to generate the one-hot semantic embeddings for toponyms.
 
-*Changes made to this table will invalidate any embeddings generated previously.*
+*Changes made to these tables will invalidate any embeddings generated previously.*
 
 ---
 
