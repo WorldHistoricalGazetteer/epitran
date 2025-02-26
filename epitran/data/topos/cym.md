@@ -13,3 +13,4 @@
 | Q33857            | parc                 | parc, gardd, maes                            |
 | Q11442            | ffordd               | ffordd, heol, lôn, rhiw                      |
 | Q133506           | traeth               | traeth, glan y môr, bae                      |
+| Q24398318         | adeilad crefyddol    | llan, eglwys, capel, mynachlog, abad-dy, teml, mosg, synagog |
