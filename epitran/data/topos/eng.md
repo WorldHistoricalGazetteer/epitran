@@ -2,7 +2,8 @@
 |-------------|----------------------|----------------------------------------------------------------|
 | Q486972     | human settlement     | ville, ton, burg, ham, bury, stoke, worth, field, end, corner, cross, thorpe, by, ley, stead |
 | Q24398318   | religious building   | church, chapel, temple, minster |
-| Q2151613    | compass point        | north, south, east, west |
+| Q2151613    | relative direction   | north, south, east, west, middle |
+| Q2633778    | elevation            | upper, lower, high, low |
 | Q8502       | mountain             | mount, peak, hill, summit, ridge, cliff, crag, tor, fell, ben, alp, knoll, scar, pike, howe, law, drum |
 | Q1549591    | market               | market, bazaar, fair, mart, chipping, forum |
 | Q54113      | color                | red, black, white, green, blue, yellow, brown, grey, orange, purple, dun, roan, blonde |
