@@ -1,22 +1,32 @@
-## TOPOS Thesaurus
+# TOPOS
 
-### Purpose:
+**T**oponymic **O**perations and **P**rocessing for **O**ntological **S**emantics
 
-TOPOS is designed to add semantic information to the representation of place names. This means it helps to capture the meaning or concept associated with a place, rather than just its phonetic sounds.
-This semantic information is encoded as "one-hot semantic vector embeddings." These are essentially vectors where each element corresponds to a specific concept from the thesaurus, and the value of the element (1 or 0) indicates whether that concept is present or absent in the place name.
-
-This semantic embedding can then be used in a vector index along with other phonetic embeddings to improve the accuracy and depth of place name matching and analysis.
-
-### Structure:
-
-The thesaurus consists of a controlled vocabulary of Wikidata QIDs (identifiers for Wikidata items). These QIDs represent various geographic concepts, such as "human settlement," "mountain," "market," etc.
-Each QID is associated with a language-specific Markdown file (*.md). These files contain lists of common toponymic elements (parts of place names) that are related to the concept represented by the QID.
-The phonetic information (IPA transcriptions) of these toponymic elements is extracted from the Markdown files and stored in a JSON file (TOPOS.json).
-This information is then used to generate the one-hot semantic embeddings for toponyms.
-
-*Changes made to these tables will invalidate any embeddings generated previously.*
+An initiative by the [World Historical Gazetteer](https://whgazetteer.org/) to enhance place name indexing across languages, scripts, and time, by extracting semantic meaning.
 
 ---
+
+Many place names contain elements that indicate or describe geographic features, settlement types, or directional cues, for example:
+
+- **Chipping Norton** = *cēping* (market) + *norð* (north) + *tūn* (enclosure) *(Old English)*
+- **Innsbruck** = *Inn* (river name) + *Bruck* (bridge) *(German)*
+- **Beograd** = *Beli* (white) + *Grad* (fortress) *(Serbian)*
+- **Kirkjubøur** = *Kirkja* (church) + *Bøur* (farm) *(Faroese)*
+- **松山** = *松* (pine tree) + *山* (mountain) *(Japanese)*
+- **Llanfairpwllgwyngyll** = *Llan* (parish/church) + *Fair* (St. Mary) + *Pwll* (pool) + *Gwyn* (white) + *Gyll* (hazel) *(Welsh)*
+- **Новгород** = *Нов* (new) + *город* (city) *(Russian)*
+
+By identifying **_commonly-occurring_** toponymic elements in different languages and linking them to a controlled vocabulary of **semantic classes**, we can improve place name matching and analysis across languages and historical sources. The classes we have chosen for our **Thesaurus** (below) are based on **Wikidata IDs**, which represent concepts such as "religious building" (Q24398318), "bridge" (Q12280), and "direction" (Q2151613). **We welcome suggestions for expanding and refining our Thesaurus to better reflect linguistic diversity and historical usage.**
+
+Historical and regional variation in the spelling of toponymic elements is accounted for, to some extent, by encoding phonetic rather than orthographic forms. For further technical details please see [here](https://github.com/WorldHistoricalGazetteer/place/issues/19).
+
+## HELP!
+
+To build and refine this system, we need the help of linguists. **If you have expertise in a language or historical corpus, we invite you to contribute tables of commonly-occurring toponymic elements grouped by their corresponding semantic classes.** Please follow this [Example](https://github.com/WorldHistoricalGazetteer/epitran/edit/toponymic-linguistics/epitran/data/topos/eng.md) and send to whgazetteer@gmail.com.
+
+---
+
+*Changes made to the tables in this file will invalidate any embeddings generated previously.*
 
 ### Settlements and Human-Made Structures
 | Wikidata ID  | Name                 | Description |
@@ -50,6 +60,7 @@ This information is then used to generate the one-hot semantic embeddings for to
 | Wikidata ID  | Name                 | Description |
 |-------------|----------------------|-------------|
 | Q11442      | Road                  | An identifiable route, way or path between two or more places |
+| Q12280      | Bridge                | Structure that spans and provides a passage over a road, railway, river, or some other obstacle |
 
 ### Cultural and Historical Sites
 | Wikidata ID  | Name                 | Description |
