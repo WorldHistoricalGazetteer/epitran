@@ -1,4 +1,4 @@
-## Toponymische Elemente auf Deutsch
+## Toponymische Elemente der deutschen Sprache
 
 *Diese Tabelle wurde von KI erstellt und übersetzt: Bitte entschuldigen Sie etwaige Fehler, verbessern Sie sie gerne und senden Sie sie an whgazetteer(at)gmail(dot)com.*
 
