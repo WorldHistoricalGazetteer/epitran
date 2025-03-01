@@ -3,7 +3,7 @@
 This table lists common toponymic elements found in English place names, grouped by Semantic Class. The classes are listed in the [thesaurus](https://github.com/WorldHistoricalGazetteer/epitran/blob/toponymic-linguistics/epitran/data/topos/thesaurus.md).
 
 * The order of elements within each list is not significant.
-* It is not necessary to include examples for every Semantic Class: from the thesaurus.
+* It is not necessary to include examples for every Semantic Class from the thesaurus.
 * The Semantic Classes can be listed in any convenient order.
 
 | Semantic Class | Common Toponymic Elements |
@@ -18,7 +18,9 @@ This table lists common toponymic elements found in English place names, grouped
 | bn:00026519n | desert, plain |
 | bn:00009263n | beach, cove, dune, strand |
 | bn:00067948n | beck, bourne, brook, river, stream |
-| bn:00049709n | lake, loch, lough, mere, pond, pool, tarn |
+| bn:00049709n | lake, loch, lough, mere, pond, pool, tarn, water |
+| bn:00064201n | spring |
+| bn:00005204n | bath, spa, well |
 | bn:00035868n | bush, copse, forest, grove, holt, shaw, spinney, thicket, weald, wood |
 | bn:00043448n | heath |
 | bn:00067975n | lane, path, road, street, way |
