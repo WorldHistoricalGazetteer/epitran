@@ -24,6 +24,8 @@ Historical and regional variation in the spelling of toponymic elements is accou
 
 To build and refine this system, we need the help of linguists. **If you have expertise in a language or historical corpus, we invite you to contribute tables of commonly-occurring toponymic elements grouped by their corresponding semantic classes.** Please make a table following this [example](https://github.com/WorldHistoricalGazetteer/epitran/blob/toponymic-linguistics/epitran/data/topos/eng.md) and send to whgazetteer(_at_)gmail(_dot_)com.
 
+You can view the directory of existing language files [here](https://github.com/WorldHistoricalGazetteer/epitran/tree/toponymic-linguistics/epitran/data/topos). For more information on the 3-letter ISO language codes used to name the files, refer to the [ISO 639-3 list](https://iso639-3.sil.org/code_tables/639/data).
+
 ---
 
 | BabelNet ID | Name | Description |
