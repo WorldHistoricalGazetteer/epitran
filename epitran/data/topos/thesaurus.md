@@ -33,7 +33,7 @@ To build and refine this system, we need the help of linguists. **If you have ex
 | [bn:00013722n](https://babelnet.org/synset?id=bn:00013722n&lang=EN) | building | A constructed edifice with walls and a roof, designed for shelter or various activities. |
 | [bn:00045013n](https://babelnet.org/synset?id=bn:00045013n&lang=EN) | religious building | A structure dedicated to religious worship or spiritual practices, such as churches, mosques, or temples. |
 | [bn:00053461n](https://babelnet.org/synset?id=bn:00053461n&lang=EN) | market | A designated location where goods and services are bought and sold, often a public square or building. |
-| [bn:00016570n] | castle | |
+| [bn:00016570n](https://babelnet.org/synset?id=bn:00016570n&lang=EN) | castle | A large fortified residence or stronghold, historically used by nobility and military forces. |
 | _Natural Landforms_ |  |  |
 | [bn:00044141n](https://babelnet.org/synset?id=bn:00044141n&lang=EN) | hill | A natural elevation of land, rising above the surrounding terrain. |
 | [bn:00047612n](https://babelnet.org/synset?id=bn:00047612n&lang=EN) | island | A landmass completely surrounded by water, smaller than a continent. |
@@ -42,6 +42,8 @@ To build and refine this system, we need the help of linguists. **If you have ex
 | [bn:00009263n](https://babelnet.org/synset?id=bn:00009263n&lang=EN) | beach | A shoreline area consisting of sand, pebbles, or rocks, typically bordering a body of water. |
 | [bn:00067948n](https://babelnet.org/synset?id=bn:00067948n&lang=EN) | river | A natural watercourse flowing towards an ocean, lake, or another river, often freshwater. |
 | [bn:00049709n](https://babelnet.org/synset?id=bn:00049709n&lang=EN) | lake | A large body of water enclosed by land, typically freshwater or saltwater. |
+| [bn:00064201n](https://babelnet.org/synset?id=bn:00064201n&lang=EN) | spring | A natural source of groundwater emerging from the Earth's surface. |
+| [bn:00005204n](https://babelnet.org/synset?id=bn:00005204n&lang=EN) | spa | A location known for mineral springs or therapeutic bathing, often a health resort. |
 | _Vegetation and Natural Areas_ |  |  |
 | [bn:00035868n](https://babelnet.org/synset?id=bn:00035868n&lang=EN) | woodland | An area dominated by trees and undergrowth, providing habitat for various flora and fauna. |
 | [bn:00043448n](https://babelnet.org/synset?id=bn:00043448n&lang=EN) | heath | A tract of wasteland; uncultivated land with sandy soil and scrubby vegetation. |
